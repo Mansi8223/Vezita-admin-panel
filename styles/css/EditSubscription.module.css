@@ -1,0 +1,7 @@
+.strike{
+    color:var(--warn); 
+    text-decoration:line-through;
+}
+.vector-text{
+    transform: rotate(-15deg);
+}

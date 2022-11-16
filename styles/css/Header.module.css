@@ -1,0 +1,138 @@
+.header-height{
+    height: 52px;
+}
+.header-wrapper{
+    margin: 40px 40px 36px 40px;
+}
+.header-wrapper-heading{
+    color: var(--darker-grey);
+}
+.header-noti{
+    background: #FFFFFF;
+    border: 2px solid #ECF0F1;
+    border-radius: 100px;
+    width:clamp(2rem, 1.7115rem + 1.2821vw, 3.25rem);
+    height: clamp(2rem, 1.7115rem + 1.2821vw, 3.25rem);
+}
+.header-noti img{
+    width:clamp(0.75rem, 0.6058rem + 0.6410vw, 1.375rem);
+    height:clamp(0.9375rem, 0.7933rem + 0.6410vw, 1.5625rem);
+
+}
+.noti-profile-wrapper{
+    gap:16px;
+}
+.profile-wrapper{
+    background: #FFFFFF;
+    border: 2px solid #ECF0F1;
+    border-radius: 100px;
+    padding: 8px 12px 8px 8px;
+    gap:16px;
+}
+.profile-image{
+    border-radius: 100px;
+}
+.profile-arrow{
+    background: var(--blue-2);
+    border-radius: 100px;
+    padding: 7px 7px 7px 7px;
+}
+.profile-dropdown{
+    padding: 20px;
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 0px #EEEEF6, 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    right: 0px;
+    z-index: 99;
+}
+.doctor-profile-wrapper{
+    gap:8px;
+}
+.doctor-profile-img{
+    height: 52px;
+    width: 52px;
+}
+.profile-name-wrapper{
+    gap:4px;
+}
+.availability-wrapper{
+    margin-top: 20px;
+    padding: 16px;
+    background: var(--blue-3);
+    border-radius: 12px;
+}
+.rectangle {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+  }
+  
+  .rectangle input {
+    display: none;
+  }
+  
+  .toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: -3px;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+    border-radius: 500px;
+    background-color: var(--dark-grey);
+    border:1px solid var(--dark-grey);
+  }
+  
+  .toggle:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    top: 2px;
+    transition: .4s;
+    border-radius: 500px;
+    background-color: var(--white);
+  }
+  
+  .rectangle input:checked + .toggle:before{
+    background-color: var(--white);
+    transform: translateX(26px);
+  }
+  .rectangle input:checked + .toggle{
+    background-color: var(--secondary);
+    border:1px solid var(--secondary);
+  }
+
+  .edit-profile-wrapper{
+    padding: 12px 0px;
+    background: var(--white);
+    border-bottom: 1px solid var(--neutral-grey);
+  }
+  .user-icon-text{
+    gap:14px;
+  }
+  .notification{
+    padding: 20px;
+    width: 400px;
+    height:clamp(32.625rem, 31.9583rem + 1.3889vw, 33.625rem);
+    box-shadow: 0px 2px 12px rgba(121, 121, 121, 0.5);
+    z-index: 99;
+  }
+  .notification::-webkit-scrollbar{
+    display: none;
+   }
+   @media screen and (min-width:1399.98px){
+     .wrapper{
+      padding-right: 70px;
+     }
+   }
+   @media screen and (min-width:1735.99px){
+    .wrapper{
+      width:calc(100% / 12 * 10);
+      padding-right: 0;
+    }
+   }

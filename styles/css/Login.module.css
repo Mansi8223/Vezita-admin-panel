@@ -1,0 +1,40 @@
+.image{
+    transform: scale(0.6);
+}
+.input{
+    outline: none;
+}
+.input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--dark-grey);
+}
+
+@media screen  and (min-width:767.98px){
+    .image{
+        transform: scale(0.5);
+    }
+}
+@media screen and (min-width:991.98px){
+    .image{
+        transform: scale(0.55);
+    }
+}
+@media screen and(min-width:1199.98px){
+    .image{
+        transform: scale(0.65);
+    }
+}
+@media screen and(min-width:1399.98px){
+    .image{
+        transform: scale(1);
+    }
+}
+@media screen and (min-width:2099.98px){
+    .image{
+        transform: scale(1);
+    }
+}

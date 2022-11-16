@@ -1,0 +1,5 @@
+@media screen and (min-width:1735.99px){
+    .wrapper{
+      width:calc(100% / 12 * 10);
+    }
+}

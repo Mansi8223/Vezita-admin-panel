@@ -1,0 +1,8 @@
+.dropdown-content{
+    z-index: 999;
+    height: 70px;
+    overflow-y: scroll;
+}
+.dropdown-content::-webkit-scrollbar{
+    display: none;
+  }

@@ -1,0 +1,6 @@
+.graph-wrapper{
+    height: min-content;
+}
+.graph{
+    transform: scale(0.7);
+}

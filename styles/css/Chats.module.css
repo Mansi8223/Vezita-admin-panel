@@ -1,0 +1,25 @@
+.input{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--darker-grey);
+    outline: none;
+}
+.input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--darker-grey);
+}
+.header-circle{
+    width: 24px;
+    height: 24px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+}

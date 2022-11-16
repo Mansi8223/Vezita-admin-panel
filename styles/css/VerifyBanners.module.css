@@ -1,0 +1,34 @@
+.image-wrapper{
+    width: 500px;
+    height: 100px;
+}
+.pop-up{
+    margin-top: 50px;
+    border-radius: 12px 0px 12px 12px;
+}
+.input{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color:var(--darker-grey);
+    outline: none;
+}
+.input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color:var(--darker-grey)
+}
+.button{
+    width: 100px;
+    align-self: center;
+    padding: 10px 16px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}

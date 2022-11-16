@@ -1,0 +1,6 @@
+.table{
+    height:clamp(11.375rem, 4.0417rem + 15.2778vw, 22.375rem);
+}
+.table::-webkit-scrollbar{
+    display: none;
+}

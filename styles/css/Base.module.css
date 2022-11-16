@@ -1,0 +1,8 @@
+.main-class2{
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+   }
+   .main-class2::-webkit-scrollbar{
+    display: none;
+   }
